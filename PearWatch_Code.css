@@ -1,13 +1,19 @@
+/*Samuel Darko
+  #216953328
+
+  Dylan Lee
+  lee.dylan0214@gmail.com
+*/
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Light blue background */
+    background-color: #f0f8ff; 
   }
   
   header {
     overflow:hidden;
-    background-color: #e0efff; /* Lighter blue for header */
+    background-color: #e0efff; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -29,10 +35,16 @@ body {
   }
 
   h2{
-    font-size: px;
     margin-bottom: 1px;
     padding-left: 2%;
     padding-top: -20px;
+  }
+
+  h3{
+    text-align:  left;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 
   .topRight img {
@@ -42,21 +54,65 @@ body {
     max-width: 50px;
   }
 
+  .topleft img {
+    background-color: white;
+    float: right;
+    height: auto; 
+    max-width: 50px;
+  }
+  
   .productImage {
     display: flex;
   }
 
-  .selection-buttons{
+  .selectionButtons{
     display: flex;
+    padding-left: 5%;
   }
-  .dropdown{
-    margin-left: 0% ;
+
+  .box-0{
+    margin-top: 70px;
   }
+
+  .box-3{
+    margin-right: 2%;
+    display: flex;
+    width: 10em;
+    height: 2em;
+    line-height: 3;
+    background: white;
+    overflow: hidden;
+    border-radius: .25em;
+    cursor: pointer;
+  }
+  .box-4{
+    margin-right: 2%;
+    display: flex;
+    width: 10em;
+    height: 2em;
+    line-height: 3;
+    background: white;
+    overflow: hidden;
+    border-radius: .25em;
+    cursor: pointer;
+  }
+  .box-5{
+    margin-right: 2%;
+    display: flex;
+    width: 10em;
+    height: 2em;
+    line-height: 3;
+    background: white;
+    overflow: hidden;
+    border-radius: .25em;
+    cursor: pointer;
+  }
+  
   
   nav  input[type=text]{
    
-    float: right;
-    padding: 6px;
+    float: left;
+    margin-top: 10px;
     border: none;
     margin-top: 0px;
     margin-right: 0px;
@@ -79,17 +135,6 @@ body {
     width: 30rem;
   }
 
-  .dropdown-select {
-  
-    display: flex;
-    width: 20em;
-    height: 3em;
-    line-height: 3;
-    background: gray;
-    overflow: hidden;
-    border-radius: 25em;
-
-  }
 
   .pill {
     font-size: 14px;
@@ -99,10 +144,11 @@ body {
     border-radius: 1em;
     outline: none;
     border: none;
-    float: center;
+    margin-left: 12.5rem;
+    cursor: pointer;
   }
   nav a {
-    float: right;
+    float: center;
     display: block; 
     border-radius: 1em;
     outline: none;
@@ -111,9 +157,11 @@ body {
     text-indent: 12px;
     text-decoration: none;
     margin-top: 8px;
+    margin-right: 8px;
     color: #333;
     font-size: 17px;
   }
+  
   
   main {
     padding: 0;
@@ -160,5 +208,3 @@ body {
     font-size: 16px;
     cursor: pointer;
   }
-  
-  
